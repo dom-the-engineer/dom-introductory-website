@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom's Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">DG</a>
+        <!-- Creates Hamburger icon in mobile mode -->
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >My Projects</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button" id="signup">Say Hello</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hey, I'm <span>Dominic Guo</span></h1>
+        <p class="hero__description">
+          Welcome!
+        </p>
+        <button class="main__btn" id="hero__learn__more">
+          <a href="#about">Learn more about what I do</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <!-- <img src="./imgs/myPicture.jpg" /> -->
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>About me</h1>
+          <h2>
+            I'm a <span class="aboutmegradient">Technology Enthusiast</span> looking 
+            to improve the lives of people and their communities <span class="aboutmegradient">with software</span>.
+          </h2>
+          <div class="about_me">
+            <div class="center_content">
+              <div class="my_interests_title">
+                <p>
+                  <span>My Interests:</span> <br />
+                </p>
+            </div>
+            <div class="my_interests">
+              <p>
+                <!-- <span>My Interests:</span> <br /> -->
+                💻 Development across the stack <br />
+                📝 Software Architecture and Solution Design<br />
+                🌏 Meeting and working with diverse people <br />
+                🚀 Learning new tech and producing creative solutions as a team
+                <br />
+              </p>
+            </div>
+            <div class="my_career">
+              <p>
+                <span>My Current Career Goal:</span>
+                <br />
+                ➡️ Continuously Learn. <br />
+                ➡️ Put learning into practice. <br />
+                ➡️ Work on impactful projects with people of diverse backgrounds and skillsets.
+                <br />
+              </p>
+            </div>
+            <div class="my_motto">
+              <p>
+                <span>What I live by:</span>
+                <br />
+                <em>"Share knowledge, always, and with everyone"</em> <br />
+                To me, personal growth is all about continuously learning and then passing on this knowledge
+                 to other people. Mutually sharing knowledge
+                through team discussion, presentations, mentoring, or even over
+                coffee, is something that I'm very passionate about.
+              </p>
+            </div>
+
+            <!-- <p> -->
+            <!-- <span>My Interests:</span> <br />
+              > Getting hands-on with backend and frontend development <br />
+              > UX Design <br />
+              > Meeting and working with diverse people <br />
+              > Learning new tech and producing creative solutions as a team
+              <br />
+              <br /> -->
+            <!-- <span>My Current Career Goal:</span>
+              <br />
+              Learn continuously as a Software Developer who brings positive
+              change to people and their communities.
+              <br />
+              <br /> -->
+            <!-- <span>What I live by:</span> -->
+            <!-- <span class="aboutme3"
+                >"Share knowledge, always, and with everyone"
+              </span> -->
+            <!-- <br />
+              <em>"Share knowledge, always, and with everyone"</em> <br />
+              Finally, I love learning new things and passing on my knowledge
+              and experience to other people. Mutually sharing knowledge through
+              team discussion, presentations, mentoring, or even over coffee, is
+              something that I'm very passionate about.
+            </p> -->
+            <!-- <button class="main__btn"><a href="#">Schedule Call</a></button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>My Projects</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Project 1</h2>
+          <p>
+            2020 S1 Hackathon: Assisting Teaching Experience During Remote
+            Learning
+          </p>
+          <div class="services__btn">
+            <form action="https://dragonfruit3.herokuapp.com/" target="_blank">
+              <button type="submit" value="Go to our Hackathon">
+                View Project
+              </button>
+            </form>
+          </div>
+
+          <div class="services__btn">
+            <form
+              action="https://github.com/dpham06/dragonfruit3"
+              target="_blank"
+            >
+              <button
+                type="submit"
+                value="Visit the Github repo for our Hackathon Project"
+              >
+                Visit Github
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Project 2</h2>
+          <p>My Introductory Website using Vanilla JS, HTML and CSS</p>
+          <div class="services__btn">
+            <form
+              action="https://github.com/dslguo/DG-Website-JS"
+              target="_blank"
+            >
+              <button
+                type="submit"
+                value="Visit the Github repo for my Introductory Website!"
+              >
+                Visit Github
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Project 3</h2>
+          <p>Super Discord Chat Bot</p>
+          <div class="services__btn">
+            <form
+              action="https://github.com/dslguo/Super-Discord-Bot"
+              target="_blank"
+            >
+              <button
+                type="submit"
+                value="Visit the Github repo for my Introductory Website!"
+              >
+                Visit Github
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Project 4</h2>
+          <p>
+            Final-Year Industry Project: Health Model for Open-Source Tech
+            Stacks
+          </p>
+          <div class="services__btn">
+            <form
+              action="https://currantscantist.herokuapp.com/"
+              target="_blank"
+            >
+              <button type="submit" value="Check out our app">
+                View Project
+              </button>
+            </form>
+          </div>
+
+          <div class="services__btn">
+            <form action="https://github.com/CurrantScantist" target="_blank">
+              <button
+                type="submit"
+                value="Visit the Github repo for our Hackathon Project"
+              >
+                Visit Github
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reachout Section -->
+    <div class="reachout" id="contact">
+      <div class="reachout__container">
+        <div class="reachout__content">
+          <h1 id="reachout">Let's connect! Maybe over coffee? ☕</h1>
+
+          <form
+            action="https://formsubmit.co/82c2ecf7224e1e8e2f0effb1be118c2b"
+            method="POST"
+          >
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="nameInput"
+              placeholder="Your name.."
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email.."
+              required
+            />
+
+            <label for="lname">Country</label>
+            <input
+              type="text"
+              id="country"
+              name="countryInput"
+              placeholder="Your country.."
+              required
+            />
+
+            <label for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Hey there! Thank you again for taking the time to reach out! I will try to get back to you as soon as I can :)"
+            />
+            <input type="hidden" name="_template" value="table" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="reachout__img--container">
+          <div class="reachout__img--card" id="reachout__card">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <!-- <div class="footer__links">
+        <div class="footer__links--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/contact">How it Works</a>
+            <a href="/contact">Testimonials</a>
+            <a href="/contact">Careers</a>
+            <a href="/contact">Terms of Service</a>
+          </div>
+        </div>
+      </div> -->
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="footer__logo">DG</a>
+          </div>
+          <p class="website__rights"></p>
+          <!-- target="_blank": Opens new tab when clicking link -->
+          <div class="social__icons">
+            <a
+              href="https://www.facebook.com/dom.sl.guo"
+              class="social__icons--link"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/dom_guo/"
+              class="social__icons--link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/dominic-guo-203b33199"
+              class="social__icons--link"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/dslguo"
+              class="social__icons--link"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
